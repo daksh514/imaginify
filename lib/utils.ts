@@ -1,7 +1,11 @@
 /* eslint-disable prefer-const */
 /* eslint-disable no-prototype-builtins */
 import { type ClassValue, clsx } from "clsx";
-import qs from "qs";
+// import qs from "qs";
+// import * as qs from 'qs'
+var qs = require('qs');
+
+// import qs
 import { twMerge } from "tailwind-merge";
 
 import { aspectRatioOptions } from "@/constants";
